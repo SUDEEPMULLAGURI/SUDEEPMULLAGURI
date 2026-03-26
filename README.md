@@ -1,16 +1,26 @@
-## Hi there 👋
+<h1 align="center">Hi 👋, I'm Sudeep</h1>
 
-<!--
-**SUDEEPMULLAGURI/SUDEEPMULLAGURI** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?lines=Embedded+Engineer;Drone+Developer;Startup+Builder">
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 About Me
+- 🔭 Working on Drone Firmware
+- 🌱 Learning Embedded Linux
+- 💡 Building Startup in Smart Irrigation
+
+---
+
+### 🛠️ Tech Stack
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,python,arduino,linux" />
+</p>
+
+---
+
+### 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true">
+</p>
