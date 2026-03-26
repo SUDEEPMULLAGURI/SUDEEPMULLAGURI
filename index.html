@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sudeep Mullaguri | Portfolio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0a0a0a;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #00f7ff;
+}
+
+.section {
+    padding: 60px 20px;
+}
+
+.card {
+    background: #111;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    width: 300px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+a {
+    color: #00f7ff;
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="section">
+    <h1>🚀 Sudeep Mullaguri</h1>
+    <p id="typing"></p>
+</div>
+
+<!-- STARTUP -->
+<div class="section">
+    <h2>🌾 Smart Irrigation Startup</h2>
+    <p>Building intelligent irrigation systems that make decisions, not just show data.</p>
+</div>
+
+<!-- PROJECTS -->
+<div class="section">
+    <h2>🚁 Projects</h2>
+
+    <div class="card">
+        <h3>Drone Firmware</h3>
+        <p>ESP32 based drone control system</p>
+    </div>
+
+    <div class="card">
+        <h3>Smart Irrigation</h3>
+        <p>Automation for farmers using sensors</p>
+    </div>
+
+    <div class="card">
+        <h3>WiFi RC System</h3>
+        <p>Remote control using mobile app</p>
+    </div>
+
+</div>
+
+<!-- GITHUB -->
+<div class="section">
+    <h2>💻 GitHub</h2>
+    <a href="https://github.com/SUDEEPMULLAGURI" target="_blank">
+        Visit My GitHub
+    </a>
+</div>
+
+<!-- CONTACT -->
+<div class="section">
+    <h2>📩 Contact</h2>
+    <p>Email: your@email.com</p>
+</div>
+
+<script>
+const text = ["Founder", "Embedded Engineer", "Drone Developer", "Startup Builder"];
+let i = 0, j = 0;
+let currentText = "", isDeleting = false;
+
+function type() {
+    currentText = text[i];
+    document.getElementById("typing").innerHTML =
+        currentText.substring(0, j);
+
+    if (!isDeleting) {
+        j++;
+        if (j == currentText.length) {
+            isDeleting = true;
+            setTimeout(type, 1000);
+            return;
+        }
+    } else {
+        j--;
+        if (j == 0) {
+            isDeleting = false;
+            i = (i + 1) % text.length;
+        }
+    }
+
+    setTimeout(type, isDeleting ? 50 : 100);
+}
+
+type();
+</script>
+
+</body>
+</html>
