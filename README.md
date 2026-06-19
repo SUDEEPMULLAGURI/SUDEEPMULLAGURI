@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f6e56,100:1d9e75&height=200&section=header&text=Sudeep%20Mullaguri&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Founder%20%7C%20Embedded%20Engineer%20%7C%20Automation%20Builder&descSize=16&descAlignY=58&descColor=d0f5e8" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f6e56,100:1d9e75&height=200&section=header&text=Sudeep%20Mullaguri&fontSize=52&fontColor=ffffff&fontAlignY=38&desc= %20%7C%20Embedded%20Engineer%20%7C%20Automation%20Builder&descSize=16&descAlignY=58&descColor=d0f5e8" />
 
 </div>
 
@@ -25,7 +25,7 @@ My focus is on agriculture and automation — technology that works for real peo
 
 ---
 
-## ◈ Startup — Smart Irrigation System
+## Smart Irrigation System
 
 <table>
 <tr>
